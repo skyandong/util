@@ -9,23 +9,23 @@ import (
 
 type entry struct {
 	// Address of redis
-	Address string `mapstructure:"address"`
+	Address string `yaml:"address"`
 	// Password to auth
-	Password string `mapstructure:"password"`
+	Password string `yaml:"password"`
 	// Db to select
-	Db int `mapstructure:"db"`
+	Db int `yaml:"db"`
 	// MaxIdle connection count
-	MaxIdle int `mapstructure:"maxIdle"`
+	MaxIdle int `yaml:"maxIdle"`
 	// PoolSize just as is
-	PoolSize int `mapstructure:"poolSize"`
+	PoolSize int `yaml:"poolSize"`
 	// ConnectTimeout just as is
-	ConnectTimeout time.Duration `mapstructure:"connectTimeout"`
+	ConnectTimeout time.Duration `yaml:"connectTimeout"`
 	// IdleTimeout for an idle connection
-	IdleTimeout time.Duration `mapstructure:"idleTimeout"`
+	IdleTimeout time.Duration `yaml:"idleTimeout"`
 	// ReadTimeout just as is
-	ReadTimeout time.Duration `mapstructure:"readTimeout"`
+	ReadTimeout time.Duration `yaml:"readTimeout"`
 	// WriteTimeout just as is
-	WriteTimeout time.Duration `mapstructure:"writeTimeout"`
+	WriteTimeout time.Duration `yaml:"writeTimeout"`
 	pool         *redis.Pool
 	init         sync.Once
 }
