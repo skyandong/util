@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="512469f4-abbd-41bb-a8e5-fad064d3df84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logger/logger.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/conf/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GoLibraries">
+    <option name="indexEntireGoPath" value="false" />
+  </component>
   <component name="ProjectId" id="1w57hvjBkNxX6tmKeDtX3Ql1ZwB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,6 +37,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
+    <property name="go.tried.to.enable.integration.vgo.integrator" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -50,5 +54,9 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VgoProject">
+    <integration-enabled>true</integration-enabled>
   </component>
 </project>
