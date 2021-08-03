@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="512469f4-abbd-41bb-a8e5-fad064d3df84" name="Default Changelist" comment="" />
+=======
+    <list default="true" id="512469f4-abbd-41bb-a8e5-fad064d3df84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/conf/conf.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+    </list>
+>>>>>>> 427e0e78c1fe720ea3aecadd934efc869e3051c4
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
