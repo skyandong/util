@@ -60,4 +60,3 @@ func newAgent(c *AgentConf) (agent *api.Agent, err error) {
 	agent = client.Agent()
 	return
 }
-

@@ -25,4 +25,3 @@ func LocalIP() (ip string, err error) {
 	err = ErrNotFound
 	return
 }
-
