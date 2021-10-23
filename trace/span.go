@@ -2,12 +2,13 @@ package trace
 
 import (
 	"context"
-	"go.uber.org/zap"
-	"google.golang.org/grpc/metadata"
 	"math/rand"
 	"net/http"
 	"strconv"
 	"time"
+
+	"go.uber.org/zap"
+	"google.golang.org/grpc/metadata"
 )
 
 // Span for trace

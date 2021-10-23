@@ -3,18 +3,21 @@ package middleware
 import (
 	"bytes"
 	"encoding/json"
-	"github.com/gin-gonic/gin"
-	uuid "github.com/satori/go.uuid"
-	"github.com/skyandong/tool/native"
-	"github.com/skyandong/tool/service"
-	"github.com/skyandong/tool/trace"
-	"go.uber.org/zap"
-	"go.uber.org/zap/zapcore"
 	"io/ioutil"
 	"log"
 	"net"
 	"net/http"
 	"time"
+
+
+	"github.com/gin-gonic/gin"
+	uuid "github.com/satori/go.uuid"
+	"go.uber.org/zap"
+	"go.uber.org/zap/zapcore"
+
+	"github.com/skyandong/tool/native"
+	"github.com/skyandong/tool/service"
+	"github.com/skyandong/tool/trace"
 )
 
 //LocalIP 本机IP
