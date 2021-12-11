@@ -2,9 +2,10 @@ package redis
 
 import (
 	"fmt"
-	"github.com/gomodule/redigo/redis"
 	"sync"
 	"time"
+
+	"github.com/gomodule/redigo/redis"
 )
 
 type entry struct {

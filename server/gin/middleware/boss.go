@@ -9,15 +9,14 @@ import (
 	"net/http"
 	"time"
 
-
 	"github.com/gin-gonic/gin"
 	uuid "github.com/satori/go.uuid"
 	"go.uber.org/zap"
 	"go.uber.org/zap/zapcore"
 
-	"github.com/skyandong/tool/native"
-	"github.com/skyandong/tool/service"
-	"github.com/skyandong/tool/trace"
+	"github.com/skyandong/util/native"
+	"github.com/skyandong/util/service"
+	"github.com/skyandong/util/trace"
 )
 
 //LocalIP 本机IP

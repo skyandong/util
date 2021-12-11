@@ -1,4 +1,4 @@
-package program_controller
+package controller
 
 // CtrlCommand is a control command
 type CtrlCommand struct {

@@ -4,10 +4,11 @@ import (
 	"bytes"
 	"context"
 	"encoding/json"
-	"github.com/skyandong/tool/service"
-	"github.com/skyandong/tool/trace"
 	"io"
 	"net/http"
+
+	"github.com/skyandong/util/service"
+	"github.com/skyandong/util/trace"
 )
 
 func newJSONRequest(ctx context.Context, method, url string, param interface{}) (*http.Request, error) {

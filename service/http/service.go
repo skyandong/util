@@ -4,13 +4,14 @@ import (
 	"context"
 	"encoding/json"
 	"fmt"
-	"github.com/skyandong/tool/service"
-	"github.com/skyandong/tool/service/http/namecli"
 	"io/ioutil"
 	"net/http"
 	"os"
 	"strings"
 	"time"
+
+	"github.com/skyandong/util/service"
+	"github.com/skyandong/util/service/http/namecli"
 )
 
 const (

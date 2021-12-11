@@ -1,8 +1,9 @@
 package consul
 
 import (
-	"github.com/hashicorp/consul/api"
 	"strconv"
+
+	"github.com/hashicorp/consul/api"
 )
 
 // Register http service

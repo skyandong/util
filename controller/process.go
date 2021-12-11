@@ -1,4 +1,4 @@
-package program_controller
+package controller
 
 import (
 	"fmt"

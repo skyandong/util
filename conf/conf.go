@@ -2,10 +2,11 @@ package conf
 
 import (
 	"fmt"
-	jww "github.com/spf13/jwalterweatherman"
-	"github.com/spf13/viper"
 	"path"
 	"strings"
+
+	jww "github.com/spf13/jwalterweatherman"
+	"github.com/spf13/viper"
 )
 
 type ConfigLogLevel int

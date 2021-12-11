@@ -1,4 +1,4 @@
-module github.com/skyandong/tool
+module github.com/skyandong/util
 
 go 1.15
 

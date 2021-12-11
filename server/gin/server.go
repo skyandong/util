@@ -2,13 +2,15 @@ package gin
 
 import (
 	"context"
-	"github.com/gin-gonic/gin"
-	"github.com/skyandong/tool/consul"
-	"github.com/skyandong/tool/program_controller"
 	"log"
 	"net"
 	"net/http"
 	"time"
+
+	"github.com/gin-gonic/gin"
+
+	"github.com/skyandong/util/consul"
+	"github.com/skyandong/util/controller"
 )
 
 // Server for gin service
@@ -18,7 +20,7 @@ type Server struct {
 	hs *http.Server
 }
 
-var _ program_controller.Server = (*Server)(nil)
+var _ controller.Server = (*Server)(nil)
 
 // NewServer creates a gin server
 func NewServer(ops ...Option) *Server {

@@ -1,9 +1,10 @@
 package gin
 
 import (
-	"github.com/gin-gonic/gin"
-	"github.com/skyandong/tool/consul"
 	"time"
+
+	"github.com/gin-gonic/gin"
+	"github.com/skyandong/util/consul"
 )
 
 type options struct {

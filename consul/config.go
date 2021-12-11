@@ -2,10 +2,11 @@ package consul
 
 import (
 	"errors"
-	"github.com/hashicorp/consul/api"
 	"regexp"
 	"strconv"
 	"time"
+
+	"github.com/hashicorp/consul/api"
 )
 
 // ServiceConf for consul
