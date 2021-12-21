@@ -7,6 +7,7 @@ require (
 	github.com/go-redis/redis/v8 v8.11.1
 	github.com/gomodule/redigo v1.8.5
 	github.com/hashicorp/consul/api v1.1.0
+	github.com/jinzhu/gorm v1.9.11
 	github.com/natefinch/lumberjack v2.0.0+incompatible
 	github.com/satori/go.uuid v1.2.0
 	github.com/spf13/jwalterweatherman v1.1.0
