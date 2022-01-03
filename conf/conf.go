@@ -9,6 +9,7 @@ import (
 	"github.com/spf13/viper"
 )
 
+// ConfigLogLevel
 type ConfigLogLevel int
 
 const (
@@ -71,8 +72,11 @@ func (conf *XConfig) Unmarshal(rawVal interface{}) error {
 	return conf.viper.Unmarshal(rawVal)
 }
 
-// confPath 配置文件路径  如：/datarver/pro/conf.yaml
-// rawVal 配置文件映射的对象
+// LoadConfig 加载配置文件
+/*
+ * confPath 配置文件路径  如：/data/server/pro/conf.yaml
+ * rawVal 配置文件映射的对象
+ */
 func LoadConfig(confPath string, rawVal interface{}) (err error) {
 	confPath = strings.Replace(confPath, "\\", "/", -1)
 	fileDir := path.Dir(confPath)
