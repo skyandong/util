@@ -1,10 +1,11 @@
 package http
 
 import (
-	"github.com/skyandong/tool/service"
 	"net/http"
 	"sync"
 	"time"
+
+	"github.com/skyandong/util/service"
 )
 
 // ClientCache for HTTP
